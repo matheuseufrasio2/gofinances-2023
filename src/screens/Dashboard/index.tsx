@@ -1,19 +1,11 @@
 import React from 'react';
 
-import {
-  View,
-  Text
-} from 'react-native';
-import { Title } from './styles';
+import { DashboardContainer, Title } from './styles';
 
-interface Props {
-  title: string;
-}
-
-export function Dashboard({ title }: Props) {
+export function Dashboard() {
   return (
-    <View>
-      <Title>{title}</Title>
-    </View>
+    <DashboardContainer>
+      <Title>title</Title>
+    </DashboardContainer>
   );
 }
