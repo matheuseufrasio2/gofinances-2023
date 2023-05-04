@@ -4,6 +4,7 @@ import {
   View,
   Text
 } from 'react-native';
+import { Title } from './styles';
 
 interface Props {
   title: string;
@@ -12,7 +13,7 @@ interface Props {
 export function Dashboard({ title }: Props) {
   return (
     <View>
-      <Text>{title}</Text>
+      <Title>{title}</Title>
     </View>
   );
 }
