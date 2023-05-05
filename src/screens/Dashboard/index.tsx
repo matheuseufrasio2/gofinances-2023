@@ -1,8 +1,11 @@
 import React from 'react';
 
+
+
 import {
   DashboardContainer,
   Header,
+  Icon,
   Photo,
   User,
   UserGreeting,
@@ -23,6 +26,7 @@ export function Dashboard() {
               <UserName>Matheus</UserName>
             </User>
           </UserInfo>
+          <Icon name='power' />
         </UserWrapper>
       </Header>
     </DashboardContainer>
