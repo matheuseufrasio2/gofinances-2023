@@ -10,7 +10,7 @@ import {
   Poppins_700Bold
 } from '@expo-google-fonts/poppins'
 
-import { Dashboard } from './src/screens/Dashboard';
+import { Register } from './src/screens/Register';
 import { View } from 'react-native';
 
 export default function App() {
@@ -48,7 +48,7 @@ export default function App() {
   return (
     <View style={{ flex: 1, width: '100%' }} onLayout={onLayout}>
       <ThemeProvider theme={theme}>
-        <Dashboard />
+        <Register />
       </ThemeProvider>
     </View>
   );
